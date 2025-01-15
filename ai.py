@@ -126,7 +126,7 @@ def opponent(stone):
 
 class Kuma3nidaAI(object):
     def face(self):
-        return "🦾"  # 強いAIを示すアイコン
+        return "🐻"  # 強いAIを示すアイコン
     
     def place(self, board, stone):
         best_move = None
@@ -143,4 +143,4 @@ class Kuma3nidaAI(object):
                 best_move = move
                 
         return best_move
-play_othello()
+play_othello(Kuma3nidaAI)
