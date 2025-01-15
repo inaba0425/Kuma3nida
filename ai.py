@@ -143,4 +143,4 @@ class Kuma3nidaAI(object):
                 best_move = move
                 
         return best_move
-play_othello(Kuma3nidaAI())
+#play_othello(Kuma3nidaAI())
